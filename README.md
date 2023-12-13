@@ -55,14 +55,13 @@ as **raw-ipl-data**.
 
 <img src="https://github.com/ManojPatil806/IPL_2023_analysis/blob/main/Screenshots/Screenshot%202023-12-12%20194224.png">
 
-#### 2. Data Transformation Requirements
-* Join the key information required for reporting to create a new table.
-* Join the key information required for analysis to create a new table.
-* Transformed tables must have audit columns.
-* We must be able to analyze the transformed data via SQL.
-* Transformed data must be stored in columnar format (i.e. parquet).
-* Transformation logic must be able to handle the incremental load.
+#### Step2. Make the connection with ADLS gen2 in Azure Databricks for data transformation.
+[Source code](https://github.com/ManojPatil806/IPL_2023_analysis/blob/main/code/MATCH_ANALYSIS_TBL.ipynb)
+* Create Data frame to do the transformation.
+* Join table using SQL query.
+* Load the data usning JDBC connection in target location.
 
+  
 #### 3. Data Reporting Requirements
 * We want to be able to know Driver Standings.
 * We should be able to know Constructor Standings as well.
