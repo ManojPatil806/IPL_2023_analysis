@@ -27,9 +27,6 @@ We are referring to open-source data from the github repository. Data was availa
 - Azure Data Factory (ADF) is responsible for the execution of Azure Datarbicks notebooks as well as monitoring them. We import data from github repository to Azure Data Lake Storage Gen2 (ADLS). The raw data is stored in the container at raw-ipl-data (landing zone).
 - The transform data in Azure Databricks load into the Azure SQL DB using JDBC connection 
 - Make the connection in Power BI with Azure Sql DB to generate report.
-  
-#### Step1 :
-- Using copy activity in Azure Data Factory load the raw data from github repo to ADLS gen2. 
 
 
 ## Azure Resources Required for this Project:
@@ -51,13 +48,12 @@ We are referring to open-source data from the github repository. Data was availa
 ## Create Azure Sql DB:
 <img src="https://github.com/ManojPatil806/IPL_2023_analysis/blob/main/Screenshots/az-db.png">
 
-#### 1. Data Ingestion Requirements
-* Ingest all 8 files into Azure data lake. 
-* Ingested data must have the same schema applied.
-* Ingested data must have audit columns.
-* Ingested data must be stored in  columnar format (i.e. parquet).
-* We must be able to analyze the ingested data via SQL.
-* Ingestion Logic must be able to handle the incremental load.
+#### Step1. Data Ingestion 
+* Ingest all 4 files in CSV formate into Azure data lake using Azure data factory and create contaniner name
+as **raw-ipl-data**. 
+<img src="https://github.com/ManojPatil806/IPL_2023_analysis/blob/main/Screenshots/Screenshot%202023-12-12%20194045.png">
+
+<img src="https://github.com/ManojPatil806/IPL_2023_analysis/blob/main/Screenshots/Screenshot%202023-12-12%20194224.png">
 
 #### 2. Data Transformation Requirements
 * Join the key information required for reporting to create a new table.
