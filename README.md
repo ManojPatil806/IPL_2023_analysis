@@ -9,7 +9,7 @@ This project aims to provide a data analysis solution for IPL 2023 using Azure D
 # ER Diagram:
 
 The structure of the database is shown in the following ER Diagram and explained in the [Database User Guide](http://ergast.com/docs/f1db_user_guide.txt)
-![ERDiagram](http://ergast.com/images/ergast_db.png)
+![ERDiagram](https://github.com/ManojPatil806/IPL_2023_analysis/blob/main/Screenshots/ER-DIAGRAM.png)
 
 ## How it works:
 <h3>Source Date Files</h3>
