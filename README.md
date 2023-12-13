@@ -62,15 +62,20 @@ as **raw-ipl-data**.
 * Load the data usning JDBC connection in target location.
 
   
-#### 3. Data Reporting Requirements
-* We want to be able to know Driver Standings.
-* We should be able to know Constructor Standings as well.
+#### Step3. Check the tables in target Data Base
+| File Name  | File Type |
+| ------------- | ------------- |
+| Batsman_tbl  | CSV  |
+| Bowler_tbl | CSV |
+| Match_analysis_tbl| CSV  |
+<img src="https://github.com/ManojPatil806/IPL_2023_analysis/blob/main/Screenshots/data_check.png">
 
-#### 4. Data Analysis Requirements
-* Find the Dominant drivers.
-* Find the Dominant Teams. 
-* Visualize the Outputs.
-* Create Databricks dashboards.
+
+#### Step4. Connect the SQL DB in Power Bi and load the data In pbix file.
+* Allow the firewall request for exsting IP address.
+* Give the user name and password in Power BI data source.
+* Load the data in Power BI workspace.
+<img src="https://github.com/ManojPatil806/IPL_2023_analysis/blob/main/Screenshots/Screenshot%202023-12-13%20113033.png">
 
 #### 5. Scheduling Requirements
 * Scheduled to run every Sunday at 10 pm.
