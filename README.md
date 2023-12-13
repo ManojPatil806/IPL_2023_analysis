@@ -70,8 +70,15 @@ as **raw-ipl-data**.
 | Match_analysis_tbl| CSV  |
 <img src="https://github.com/ManojPatil806/IPL_2023_analysis/blob/main/Screenshots/data_check.png">
 
+#### Step4. Orchestrete all the activitis in one pipeline
+* Add notebook activity in exsting pipeline.
+* Configure the linked service.
+* Give the notebook path.
+<img src="https://github.com/ManojPatil806/IPL_2023_analysis/blob/main/Screenshots/Screenshot%202023-12-13%20132304.png">
+  
 
-#### Step4. Connect the SQL DB in Power Bi and load the data In pbix file.
+
+#### Step5. Connect the SQL DB in Power Bi and load the data In pbix file.
 * Allow the firewall request for exsting IP address.
 * Give the user name and password in Power BI data source.
 * Load the data in Power BI workspace.
