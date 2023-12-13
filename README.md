@@ -42,6 +42,14 @@ We are referring to open-source data from the github repository. Data was availa
 ## Create Azure Data lake Storage:
 <img src="https://github.com/ManojPatil806/IPL_2023_analysis/blob/main/Screenshots/storage%20gen2.png">
 
+## Create Azure Factory:
+<img src="https://github.com/ManojPatil806/IPL_2023_analysis/blob/main/Screenshots/ADF.png">
+
+## Create Azure Databricks:
+<img src="https://github.com/ManojPatil806/IPL_2023_analysis/blob/main/Screenshots/ADB.png">
+
+## Create Azure Sql DB:
+<img src="https://github.com/ManojPatil806/IPL_2023_analysis/blob/main/Screenshots/az-db.png">
 
 #### 1. Data Ingestion Requirements
 * Ingest all 8 files into Azure data lake. 
